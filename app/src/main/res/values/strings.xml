@@ -1,0 +1,53 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+    <string name="symbol_detail_stock" translatable="false">detail_symbol</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+    <string name="string_format" translatable="false">dd/MM/yyyy</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units">Change display mode</string>
+    <string name="widget_title">Stock Hawk</string>
+    <string name="a11y_widget_title">Stock Hawk widget</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol <xliff:g id="no_network_symbol"> %s</xliff:g> added. Will refresh when network available.</string>
+    <string name="chart_title"><xliff:g id="symbol"> %s</xliff:g> - historical chart</string>
+    <string name="toast_stock_added_wrong_symbol">Symbol <xliff:g id="not_valid_symbol"> %s</xliff:g> added is not a valid stock.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+
+
+    <string name="a11y_stock_name">Stock: <xliff:g id="a11s_stock_name"> %s</xliff:g></string>
+    <string name="a11y_stock_value">Value: <xliff:g id="a11s_stock_value"> %s</xliff:g></string>
+    <string name="a11y_stock_diff">Change: <xliff:g id="a11s_stock_diff"> %s</xliff:g></string>
+    <string name="a11y_chart">Chart for stock: <xliff:g id="a11s_chart"> %s</xliff:g></string>
+    <string name="a11y_add_stock">Add a new stock</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>
